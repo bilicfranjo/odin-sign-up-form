@@ -1,0 +1,157 @@
+html, body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+@font-face {
+    font-family: 'odin font';
+    src: url(fonts/Norse-Bold.otf);
+}
+
+/*Photo section*/
+
+.photo_section {
+    flex: 3;
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    padding: 16px 0;
+}
+
+.logo_name{
+    color: white;
+    font-family: 'odin font';
+    font-size: 90px;
+}
+
+.logo_image {
+    height: 100px;
+}
+
+.credit_author {
+    color: white;
+    margin-bottom: 6px;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+/*Form section*/
+
+.form_section {
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+}
+
+.form_section_one {
+    background-color: white;
+    font-size: 22px;
+    margin-left: 36px;
+    margin-top: 120px;
+    font-weight: 600;
+}
+
+.section_one_last {
+    margin-top: 20px;
+}
+
+
+.lets_do_this {
+    margin-left: 36px;
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/**/
+
+.form_section_two{
+    margin-top: 50px;
+    padding-bottom: 18px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.rows {
+    display: flex;
+    gap: 60px;
+    margin: 16px 0px 16px 36px;
+}
+
+.form_label {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 12px;
+}
+
+.input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+    
+}
+
+.input:focus {
+    border-color: #4a90e2; /* Plava boja na fokusu */
+    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+}
+
+.input.invalid {
+    border: 1px solid #d9534f;
+    background-color: #fff5f5;
+}
+
+/**/
+
+.form_section_three {
+    margin-top: 34px;
+    margin-left: 36px;
+}
+
+.create_button {
+    background-color: #596D48;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 34px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.form_three_text {
+    margin-top: 30px;
+
+}
+
+.log_in {
+    color: #596D48;
+    font-weight: 600;
+}
